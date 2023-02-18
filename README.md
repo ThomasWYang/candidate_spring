@@ -31,6 +31,18 @@ If you see this info is displayed, the app is running correctly
 
 Please refer to https://stackoverflow.com/questions/34253779/tomcat-server-error-port-8080-already-in-use if there is error mentioning that port 8080 already in use.
 
+## Test in local environment
+
+Run the following command to execute Unit Test
+```sh
+./mvnw test
+```
+Or
+```sh
+mvn test
+```
+![图片](https://user-images.githubusercontent.com/84115795/219512711-6f713a0c-11a8-478e-a95d-a717434f60c9.png)
+
 ## Install via Docker
 
 1. Make sure Docker desktop (https://www.docker.com/) is running.
@@ -48,18 +60,6 @@ docker compose up
 ```
 It will run on configured port 8080 and you will see similar info below. 
 ![图片](https://user-images.githubusercontent.com/84115795/219513462-6ecf3fe1-9ce0-4bc9-aa5a-f368f246212d.png)
-
-## Test in local environment
-
-Run the following command to execute Unit Test
-```sh
-./mvnw test
-```
-Or
-```sh
-mvn test
-```
-![图片](https://user-images.githubusercontent.com/84115795/219512711-6f713a0c-11a8-478e-a95d-a717434f60c9.png)
 
 ## Run the app directly from instance deployed in AWS EC2
 
