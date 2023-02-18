@@ -29,6 +29,8 @@ mvn clean spring-boot:run
 If you see this info is displayed, the app is running correctly
 ![图片](https://user-images.githubusercontent.com/84115795/219512379-42235cb8-0569-4b2c-a6e8-592e8f5369f5.png)
 
+Please refer to https://stackoverflow.com/questions/34253779/tomcat-server-error-port-8080-already-in-use if there is error mentioning that port 8080 already in use.
+
 ## Install via Docker
 
 1. Make sure Docker desktop (https://www.docker.com/) is running.
