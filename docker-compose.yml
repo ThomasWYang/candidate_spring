@@ -1,0 +1,6 @@
+
+services:
+  app:
+    image: thomasy2022/tpg_spring
+    ports:
+          - 8080:8080
