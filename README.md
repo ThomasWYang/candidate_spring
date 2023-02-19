@@ -54,7 +54,7 @@ docker pull thomasy2022/candidate_spring
 ```sh
 docker run -d -p 8080:8080 thomasy2022/candidate_spring
 ```
-4. You can also use docker compose file to run the app
+4. You can also use docker-compose.yml file inside this repo combined with the docker image to run the app
 ```sh
 docker compose up
 ```
