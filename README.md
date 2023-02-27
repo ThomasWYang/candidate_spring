@@ -71,7 +71,7 @@ curl -v "13.236.184.156/candidates/scoregreater/90"
 
 ## Usage
 
-You may test the scirpt via various tools like browsers and postman, I will show how to use curl to test the api in windows cmd or linux below. (add -v after curl to show detailed info)
+You may test the script via various tools like browsers and postman, I will show how to use curl to test the api in windows cmd or linux below. (add -v after curl to show detailed info)
 1. Show all candidates
 ```sh
 curl -v "localhost:8080/candidates"
